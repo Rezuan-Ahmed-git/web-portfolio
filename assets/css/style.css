@@ -47,8 +47,35 @@
     font-family: Poppins-Regular;
 }
 /*Reset Css code end*/
-
-.name , .highlighted {
-    color: orange;
+.main ::after {
+    content: '';
+    clear: both;
 }
 
+/* Section-1 start */
+.main .section-1 {
+    margin: auto;
+    border: 1px solid blue;
+    height: 76.6vh;
+    background-image: url('../img/top-banner.png');
+    background-repeat: no-repeat;
+}
+/* Section-1 left part start */
+.main .section-1 .left {
+    width: 50%;
+    border: 2px solid red;
+    float: left;
+}
+/* Section-1 left part end */
+
+/* Section-1 right part start */
+.main .section-1 .right {
+    width: 49%;
+    border: 3px solid green;
+    float: left;
+    text-align: center;
+}
+.main .section-1 .right img {
+    width: 79%;
+}
+/* Section-1 right part end */
