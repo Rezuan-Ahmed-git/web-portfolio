@@ -55,7 +55,6 @@
 /* Section-1 start */
 .main .section-1 {
     margin: auto;
-    border: 1px solid blue;
     height: 76.6vh;
     background-image: url('../img/top-banner.png');
     background-repeat: no-repeat;
@@ -63,15 +62,53 @@
 /* Section-1 left part start */
 .main .section-1 .left {
     width: 50%;
-    border: 2px solid red;
     float: left;
+    margin-top: 4.0625rem;
+    padding-left: 6.25rem;
+    padding-right: 8.125rem;
+    box-sizing: border-box;
+}
+.main .section-1 .left h1 {
+    font-family: Poppins-Regular;
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 6.875rem;
+    color: black;
+}
+.main .section-1 .left h1 .name-highlighted {
+    font-family: Poppins-Regular;
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: orange;
+}
+.main .section-1 .left h5 {
+    font-family: Poppins-Regular;
+    font-weight: 700;
+    font-size: 1.1875rem;
+    line-height: 3rem;
+    color: black;
+}
+.main .section-1 .left p {
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+}
+.main .section-1 .left a {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
 }
 /* Section-1 left part end */
 
 /* Section-1 right part start */
 .main .section-1 .right {
     width: 49%;
-    border: 3px solid green;
     float: left;
     text-align: center;
 }
@@ -79,3 +116,84 @@
     width: 79%;
 }
 /* Section-1 right part end */
+
+
+
+
+
+
+/* Section-2 start */
+.main .section-2 {
+    margin: auto;
+    height: 76.6vh;
+    background-image:url('../img/dream-bg.png');
+    background-repeat:no-repeat;
+    background-position: 100% 30%;
+}
+
+/* Section-2 left part start */
+.main .section-2 .left-1 {
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+.main .section-2 .left-1 img {
+    width: 79%;
+}
+/* Section-2 left part end */
+
+/* Section-2 right part start */
+.main .section-2 .right-1 {
+    width: 50%;
+    float: left;
+    margin-top: 4.0625rem;
+    padding-left: 6.25rem;
+    padding-right: 8.125rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.main .section-2 .right-1 h1 {
+    font-family: Poppins-Regular;
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 6.875rem;
+    color: black;
+}
+.main .section-2 .right-1 h1 .name-highlighted {
+    font-family: Poppins-Regular;
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: orange;
+}
+.main .section-2 .right-1 h5 {
+    font-family: Poppins-Regular;
+    font-weight: 700;
+    font-size: 1.1875rem;
+    line-height: 3rem;
+    color: black;
+}
+.main .section-2 .right-1 p {
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+}
+.main .section-2 .right-1 a {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.main .section-2 .right-1 img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+/* Section-2 right part end */
+
+/* Section-2 end*/
